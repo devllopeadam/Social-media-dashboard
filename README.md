@@ -2,10 +2,6 @@
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
-
-![Testimonials grid section](./design/desktop-preview.jpg)
-
 # Frontend Mentor - Testimonials grid section solution
 
 <div align="center">
