@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"
+  data-theme="light">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!-- For the icon -->
+    <link rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png">
+    <!-- for the font family -->
+    <link rel="preconnect"
+      href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet">
+    <!-- For the styling -->
+    <link rel="stylesheet"
+      href="sass/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="sass/main.css">
+    <title>Frontend Mentor | Social-media-dashboard</title>
+  </head>
+
+  <body class="bgc-body position-relative">
+    <section class="top-pattern bg-top-pattern"></section>
+    <main class="container">
+      <header class="d-flex justify-content-between align-items-md-center position-relative flex-md-row flex-column">
+        <div class="header__text pb-md-0 mb-md-0  pb-4 mb-4">
+          <h2 class="text-c">Social Media Dashboard</h2>
+          <p class="text-c-blue">Total Followers 23,004</p>
+        </div>
+        <div class="header__toggler d-flex justify-content-between align-items-center w-md-100">
+          <span class="text-c-blue">Dark Mode</span>
+          <div class="toggler position-relative"></div>
+        </div>
+      </header>
+    </main>
+    <main class="container">
+      <section class="socials-media position-relative row g-4">
+        <article class="col-md-6 col-lg-3 p-0">
+          <section class="social-card bg-card mx-2 facebook">
+            <section class="social-card__account d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-facebook.svg">
+              <p class="text-c-blue">@nathanf</p>
+            </section>
+            <section class="social-card__followers text-center">
+              <h1 class="text-c">1987</h1>
+              <p class="text-c-blue">FOLLOWERS</p>
+            </section>
+            <section class="social-card__status d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-up.svg">
+              <p>12 Today</p>
+            </section>
+          </section>
+        </article>
+        <article class="col-md-6 col-lg-3 p-0">
+          <section class="social-card bg-card mx-2 twitter">
+            <section class="social-card__account d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-twitter.svg">
+              <p class="text-c-blue">@nathanf</p>
+            </section>
+            <section class="social-card__followers text-center">
+              <h1 class="text-c">1044</h1>
+              <p class="text-c-blue">FOLLOWERS</p>
+            </section>
+            <section class="social-card__status d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-up.svg">
+              <p>99 Today</p>
+            </section>
+          </section>
+        </article>
+        <article class="col-md-6 col-lg-3 p-0">
+          <section class="social-card bg-card mx-2 instagram">
+            <section class="social-card__account d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-instagram.svg">
+              <p class="text-c-blue">@nathanf</p>
+            </section>
+            <section class="social-card__followers text-center">
+              <h1 class="text-c">11k</h1>
+              <p class="text-c-blue">FOLLOWERS</p>
+            </section>
+            <section class="social-card__status d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-up.svg">
+              <p>1099 Today</p>
+            </section>
+          </section>
+        </article>
+        <article class="col-md-6 col-lg-3 p-0">
+          <section class="social-card bg-card youtube mx-2">
+            <section class="social-card__account d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-youtube.svg">
+              <p class="text-c-blue">Nathan F.</p>
+            </section>
+            <section class="social-card__followers text-center">
+              <h1 class="text-c">8239</h1>
+              <p class="text-c-blue">SUBSCRIBERS</p>
+            </section>
+            <section class="social-card__status d-flex justify-content-center align-items-center gap-2">
+              <img src="./images/icon-down.svg">
+              <p style="color: hsl(356, 69%, 56%);">1099 Today</p>
+            </section>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <main class="container">
+      <section class="overviews">
+        <h1 class="text-c-blue">Overview - Today</h1>
+        <main class="overviews__cards">
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Page Views</p>
+              <img src="./images/icon-facebook.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">87</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">3%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Likes</p>
+              <img src="./images/icon-facebook.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">52</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">2%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Likes</p>
+              <img src="./images/icon-instagram.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">5462</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">2257%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Profile Views</p>
+              <img src="./images/icon-instagram.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">52K</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">1375%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Retweets</p>
+              <img src="./images/icon-twitter.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">117</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">303%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Likes</p>
+              <img src="./images/icon-twitter.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">507</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-up.svg">
+                <p class="c-green">553%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Likes</p>
+              <img src="./images/icon-youtube.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">107</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-down.svg">
+                <p class="c-red">19%</p>
+              </article>
+            </section>
+          </article>
+          <article class="overviews__cards__card bg-card">
+            <section class="title d-flex justify-content-between align-items-center">
+              <p class="text-c-blue">Total Views</p>
+              <img src="./images/icon-youtube.svg">
+            </section>
+            <section class="footer d-flex justify-content-between align-items-center">
+              <h1 class="text-c m-0">1407</h1>
+              <article class="d-flex justify-content-center align-items-center gap-2">
+                <img src="./images/icon-down.svg">
+                <p class="c-red">12%</p>
+              </article>
+            </section>
+          </article>
+        </main>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
